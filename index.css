@@ -247,6 +247,36 @@ p {
     width: 50%;
 }
 
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .left-content {
+        order: 2;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    h1 {
+        padding: 5px;
+    }
+
+    .left-content,
+    .photo-list {
+        flex-direction: column;
+    }
+
+    .right-content {
+        width: 100%;
+        order: 1;
+    }
+
+
+}
+
+
+
 
 
 
